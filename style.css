@@ -1,0 +1,27 @@
+.nav-item {
+
+    margin: auto 0px;
+    
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.first-row, .Projects, .Events {
+    margin-top: 50px;
+}
+
+@media ( max-width: 576px ){
+    .first-row, .Projects, .Events {
+        margin-top: 20px;
+    }
+   
+} 
+
+.fill-screen {
+    background-size:  cover;
+    background-position: center;
+}
+ 
