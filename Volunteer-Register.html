@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Volunteer | The Read Reach Initiative</title>
+        <meta name="description" content="log in page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="volunteerForm">
+            <h1> Volunteer</h1>
+            <form>
+                    <label for="firstName"> Firstname:</label>
+                    <input type="text" name="Firstname" id="firstName" required> 
+
+                    <label for="lastname"> Lastname:</label>
+                    <input type="text" name="lastname" id="lastname" required> 
+
+                    <fieldset>
+                            <legend>Gender</legend>
+        
+                            <label for="male"> Male</label>
+                            <input type="radio" name="gender" id="male" value="male" required> 
+
+                            <label for="female"> Female</label>
+                            <input type="radio" name="gender" id="female" value="female" required> 
+        
+                            <label for="other"> Other</label>
+                            <input type="radio" name="gender" id="other" value="other" required>
+                    </fieldset>
+
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email" required>
+
+                    
+                    <label for="password"> Password:</label>
+                    <input type="password" name="password" id="password" minlength="8" required>
+                    
+                    <label> <br>
+                        Birthday:
+                            <select name="Month">
+                                <option>Month</option>
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select>
+                            <select name="Day">
+                                    <option>Day</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                </select>
+                                <select name="Year">
+                                        <option>Year</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                    </select>
+                    </label><br>
+                    <label>
+                        I agree to the terms and conditions
+                        <input type="checkbox" name="agreed" value="yes" required>
+                    </label> <br>
+                    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
